@@ -1,3 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julia e Matheus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .highlight {
+            color: red;
+            font-size: 1.5em;
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+            border-radius: 10px;
+            display: block;
+        }
+        h1, h2 {
+            margin: 0.5em 0;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            line-height: 1.5;
+            padding: 0 10px;
+        }
+        .timer {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .timer div {
+            background-color: #111;
+            padding: 10px;
+            border-radius: 5px;
+            width: 80px;
+            text-align: center;
+        }
+        .timer div span {
+            display: block;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="imagem.jpg" alt="Imagem">
+        <h1 class="highlight">Julia e Matheus</h1>
+        <p class="message">
+            Você é boa com as cartinhas e eu sou bom com os sites. A melhor coisa que fiz foi te enviar aquela mensagem no ano novo e você continua sendo minha melhor decisão. Assim como o convite do nosso primeiro encontro, fiz isso pra você se lembrar quanto eu te amo e de toda a nossa história. Amo você!
+        </p>
+        <h2>Compartilhando momentos há</h2>
+        <div class="timer">
+            <div>
+                <span id="anos">00</span>
+                anos
+            </div>
+            <div>
+                <span id="meses">00</span>
+                meses
+            </div>
+            <div>
+                <span id="dias">00</span>
+                dias
+            </div>
+            <div>
+                <span id="horas">00</span>
+                horas
+            </div>
+            <div>
+                <span id="minutos">00</span>
+                minutos
+            </div>
+            <div>
+                <span id="segundos">00</span>
+                segundos
+            </div>
+        </div>
+    </div>
+
+    <script>
 <script>
     function isBissexto(ano) {
         return (ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0);
@@ -36,3 +131,8 @@
 
     setInterval(atualizarContador, 1000);
 </script>
+
+    </script>
+</body>
+</html>
+
